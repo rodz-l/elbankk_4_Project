@@ -1,0 +1,1508 @@
+﻿  Admin.cpp
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,37): error C2059: syntax error: 'const'
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,57): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(48,18): error C3646: 'parseToAdmin': unknown override specifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(48,31): error C2059: syntax error: 'const'
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(48,51): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,74): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,21): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,42): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,65): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,88): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(49,43): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,34): error C2065: 'e': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13): error C2660: 'FilesHelper::saveLast': function does not take 1 arguments
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(6,17):
+      see declaration of 'FilesHelper::saveLast'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13):
+      while trying to match the argument list '(std::string)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16):
+      see declaration of 'Employee'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2133: 'employee': unknown size
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(12,7):
+      see declaration of 'Parser'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+      while trying to match the argument list '(unknown-type)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38):
+      while trying to match the argument list '()'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,16): error C2065: 'Admin': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,9): error C2923: 'std::vector': 'Admin' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,16):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,23): error C2133: 'admin': unknown size
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,23): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,37): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(12,7):
+      see declaration of 'Parser'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,37): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Admin.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,19): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,19):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,19):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,19):
+      while trying to match the argument list '(unknown-type)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(138,35): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'Admin.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(138,29):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(138,29):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(138,35):
+      while trying to match the argument list '()'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Admin.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35):
+      while trying to match the argument list '(std::vector, int)'
+  
+  Client.cpp
+  DataSourceInterface.cpp
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,22): error C2504: 'Employee': base class undefined
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(16,22): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,59): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(54,23): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(62,76): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(9,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(12,9): error C2653: 'Employee': is not a class or namespace name
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(28,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(29,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(30,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(31,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(55,29): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(56,26): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(57,31): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(58,32): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(63,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(64,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(65,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,37): error C2059: syntax error: 'const'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,57): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,74): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,21): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,42): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,65): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,88): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(49,43): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,34): error C2065: 'e': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13): error C2660: 'FilesHelper::saveLast': function does not take 1 arguments
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(6,17):
+      see declaration of 'FilesHelper::saveLast'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13):
+      while trying to match the argument list '(std::string)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16):
+      see declaration of 'Employee'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2133: 'employee': unknown size
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(12,7):
+      see declaration of 'Parser'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+      while trying to match the argument list '(unknown-type)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38):
+      while trying to match the argument list '()'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'DataSourceInterface.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,40): error C2039: 'get_id': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,42): error C2039: 'get_name': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,46): error C2039: 'get_pass': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,44): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+  elproject_4_bank.cpp
+  Employee.cpp
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,22): error C2504: 'Employee': base class undefined
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(16,22): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,59): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(54,23): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(62,76): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(9,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(12,9): error C2653: 'Employee': is not a class or namespace name
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(28,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(29,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(30,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(31,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(55,29): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(56,26): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(57,31): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(58,32): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(63,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(64,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(65,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,37): error C2059: syntax error: 'const'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,57): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,74): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,21): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,42): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,65): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,88): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(49,43): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,34): error C2065: 'e': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13): error C2660: 'FilesHelper::saveLast': function does not take 1 arguments
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(6,17):
+      see declaration of 'FilesHelper::saveLast'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13):
+      while trying to match the argument list '(std::string)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16):
+      see declaration of 'Employee'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2133: 'employee': unknown size
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(12,7):
+      see declaration of 'Parser'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+      while trying to match the argument list '(unknown-type)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38):
+      while trying to match the argument list '()'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'Employee.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,40): error C2039: 'get_id': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,42): error C2039: 'get_name': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,46): error C2039: 'get_pass': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,44): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+  FileManager.cpp
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,22): error C2504: 'Employee': base class undefined
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(16,22): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(35,59): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(54,23): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(62,76): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(9,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(12,9): error C2653: 'Employee': is not a class or namespace name
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(28,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(29,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(30,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(31,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(55,29): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(56,26): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(57,31): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(58,32): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(63,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(64,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(65,9): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,37): error C2059: syntax error: 'const'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(36,57): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,74): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,21): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,42): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,65): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,88): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(49,43): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,34): error C2065: 'e': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13): error C2660: 'FilesHelper::saveLast': function does not take 1 arguments
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(6,17):
+      see declaration of 'FilesHelper::saveLast'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13):
+      while trying to match the argument list '(std::string)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16):
+      see declaration of 'Employee'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2133: 'employee': unknown size
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Parser.h(12,7):
+      see declaration of 'Parser'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(921,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(917,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,22):
+      while trying to match the argument list '(unknown-type)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29):
+      Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1898,39):
+      see declaration of 'std::vector<_Ty,_Alloc>::size'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,38):
+      while trying to match the argument list '()'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  (compiling source file 'FileManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1922,40):
+      could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(1912,34):
+      or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+          '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35):
+      while trying to match the argument list '(std::vector, int)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,40): error C2039: 'get_id': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,42): error C2039: 'get_name': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,46): error C2039: 'get_pass': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,44): error C2039: 'getSalary': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\Admin.h(3,7):
+      see declaration of 'Admin'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FileManager.h(12,22): error C2660: 'FilesHelper::saveEmployee': function does not take 3 arguments
+  (compiling source file 'FileManager.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,17):
+      see declaration of 'FilesHelper::saveEmployee'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FileManager.h(12,22):
+      while trying to match the argument list '(std::string, std::string, Employee)'
+  
+  FilesHelper.cpp
+  Parser.cpp
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(44,74): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(7,18): error C2079: 'file' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(7,22): error C2440: 'initializing': cannot convert from 'std::string' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(7,22):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(9,18): warning C4552: '<<': result of expression not used
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(19,18): error C2079: 'file' uses undefined class 'std::basic_ifstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(19,22): error C2440: 'initializing': cannot convert from 'std::string' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(19,22):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(22,18): warning C4552: '>>': result of expression not used
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(33,18): error C2079: 'file' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(33,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(33,22):
+      The initializer contains too many elements
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32): error C2297: '<<': not valid as right operand has type 'const char [2]'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,39): error C2677: binary '<<': no global operator found which takes type 'std::string' (or there is no acceptable conversion)
+  (compiling source file 'Parser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(1031,32):
+      could be 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(1005,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(1004,5):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(947,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(941,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(936,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(930,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(894,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(851,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(813,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(768,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)': could not deduce template argument for 'std::basic_ostream<char,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(732,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\__msvc_ostream.hpp(688,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3756,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(1976,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xstring(3408,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(35,32):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'int'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(45,18): error C2079: 'file' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(45,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(45,22):
+      The initializer contains too many elements
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,21): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,42): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,65): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(47,88): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(49,43): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,34): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13): error C2660: 'FilesHelper::saveLast': function does not take 1 arguments
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(6,17):
+      see declaration of 'FilesHelper::saveLast'
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(51,13):
+      while trying to match the argument list '(std::string)'
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(65,17): error C2079: 'file' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(73,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(73,16): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(73,24): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(76,16): error C2672: 'getline': no matching overloaded function found
+  (compiling source file 'Parser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(82,32):
+      could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(76,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(75,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(76,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(68,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(76,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(25,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(76,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(77,13): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(80,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(80,16): error C2275: 'Client': expected an expression instead of a type
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(80,24): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(81,29): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(82,13): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(82,30): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(82,52): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(82,38): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(84,29): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(86,31): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(87,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(88,37): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(89,36): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(93,17): error C2079: 'file' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(101,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(101,16): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(101,24): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(103,16): error C2672: 'getline': no matching overloaded function found
+  (compiling source file 'Parser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(82,32):
+      could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(103,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(75,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(103,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(68,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(103,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(25,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(103,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(104,13): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(107,26): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(108,29): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,13): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,32): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,56): error C2065: 'e': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(109,40): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(111,29): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(113,31): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(114,33): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(115,37): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(116,35): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(120,17): error C2079: 'file' uses undefined class 'std::basic_fstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(127,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(127,16): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(127,24): error C2065: 'a': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(130,16): error C2672: 'getline': no matching overloaded function found
+  (compiling source file 'Parser.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(82,32):
+      could be 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(130,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(75,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(130,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(68,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(130,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'int'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\string(25,32):
+      or       'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)'
+          D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(130,16):
+          'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(131,13): error C2065: 'a': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,9): error C2065: 'vector': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,16): error C2065: 'Admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(134,23): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(135,29): error C2065: 'a': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,13): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,29): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,50): error C2065: 'a': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(136,37): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(138,29): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(140,31): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(141,33): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(142,37): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(143,35): error C2065: 'admin': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(147,18): error C2079: 'file' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(147,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(147,22):
+      The initializer contains too many elements
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(148,18): error C2079: 'lastFile' uses undefined class 'std::basic_ofstream<char,std::char_traits<char>>'
+  (compiling source file 'Parser.cpp')
+  
+D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(148,26): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  (compiling source file 'Parser.cpp')
+      D:\bbbbbb4\elproject_4_bank\elproject_4_bank\FilesHelper.h(148,26):
+      The initializer contains too many elements
+  
+  Validation.cpp
+  Generating Code...
